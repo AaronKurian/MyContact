@@ -24,6 +24,15 @@ app.use(cors({
 }));
 
 app.use(express.json());
+
+// Health check route
+app.get("/health", (req, res) => {
+  res.json({
+    status: "healthy",
+    timestamp: new Date().toISOString(),
+  });
+});
+
 app.use("/", (req, res, next) => {
     console.log(`Request Method: ${req.method}, Request URL: ${req.url}`);
     next();
