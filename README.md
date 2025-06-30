@@ -1,4 +1,4 @@
-# 📱 Contact Management System
+# Contact Management System
 
 A modern, full-stack contact management application built with **Express.js**, **MongoDB**, **React**, and **Tailwind CSS**. Features a beautiful, responsive UI with complete CRUD operations and user authentication.
 
@@ -60,7 +60,7 @@ A modern, full-stack contact management application built with **Express.js**, *
 
 ### Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/AaronKurian/MyContact
 cd express-project
 ```
 
